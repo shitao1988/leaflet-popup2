@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="leaflet.css" />
+  <script src="leaflet-src.js"></script>
+
+</head>
+<body>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+   #swipe1, #map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+    }
+    .swipetop{
+      height: 50%; margin-left: 20%; margin-right: 20%;
+    }
+    .swipeleft{
+      width: 20%; height: 100% ;  float: left;
+    }
+    .swiperigth{
+      width: 20%; height: 100%; float: right;
+    }
+
+    .swipebottom{
+     height: 50%;  margin-left: 20%; margin-right: 20%;
+    }
+</style>
+  <div id='map'></div>
+ <script src="popup.js"></script>
+</body>
+</html>
